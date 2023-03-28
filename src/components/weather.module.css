@@ -1,0 +1,12 @@
+.weather {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.weather h1{
+  font-size: 50px;
+}
+.weather h1 img{
+  width: 150px;
+}

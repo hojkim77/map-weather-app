@@ -1,0 +1,25 @@
+.shinning{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width : 1000px;
+    height : 800px;
+    border-radius: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(closest-side, #fbfcfd00,#0c5c94 , #cc4510, #f5f4f400);
+    animation: sunshine infinite 3s ease-in-out;
+
+}
+
+@keyframes sunshine{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
